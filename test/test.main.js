@@ -56,7 +56,7 @@ tape( 'the function returns `true` if runtime is Electron (browser/main)', funct
 	proc.type = 'browser';
 
 	isElectron = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass,
+		'@stdlib/utils-native-class': nativeClass,
 		'./process.js': proc
 	});
 
@@ -79,7 +79,7 @@ tape( 'the function returns `true` if runtime is Electron (renderer)', function 
 	proc.type = 'renderer';
 
 	isElectron = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass,
+		'@stdlib/utils-native-class': nativeClass,
 		'./process.js': proc
 	});
 
@@ -106,7 +106,7 @@ tape( 'the function returns `false` if runtime is not Electron (`process` variab
 	proc.type = 'browser';
 
 	isElectron = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass,
+		'@stdlib/utils-native-class': nativeClass,
 		'./process.js': proc
 	});
 
@@ -125,7 +125,7 @@ tape( 'the function returns `false` if runtime is not Electron (`process.version
 	proc.versions = true;
 
 	isElectron = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass,
+		'@stdlib/utils-native-class': nativeClass,
 		'./process.js': proc
 	});
 
@@ -148,7 +148,7 @@ tape( 'the function returns `false` if runtime is not Electron (`process.version
 	proc.versions.electron = null;
 
 	isElectron = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass,
+		'@stdlib/utils-native-class': nativeClass,
 		'./process.js': proc
 	});
 
@@ -171,7 +171,7 @@ tape( 'the function returns `false` if runtime is not Electron (`process.version
 	proc.versions.chrome = {};
 
 	isElectron = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass,
+		'@stdlib/utils-native-class': nativeClass,
 		'./process.js': proc
 	});
 
@@ -194,7 +194,7 @@ tape( 'the function returns `false` if runtime is not Electron (`process.type` i
 	proc.type = 'beeeeep';
 
 	isElectron = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/native-class': nativeClass,
+		'@stdlib/utils-native-class': nativeClass,
 		'./process.js': proc
 	});
 
