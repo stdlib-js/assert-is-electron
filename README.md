@@ -88,8 +88,8 @@ console.log( IS_ELECTRON );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-electron-main`][@stdlib/assert/is-electron-main]</span><span class="delimiter">: </span><span class="description">check if the runtime is the main Electron process.</span>
--   <span class="package-name">[`@stdlib/assert/is-electron-renderer`][@stdlib/assert/is-electron-renderer]</span><span class="delimiter">: </span><span class="description">check if the runtime is the Electron renderer process.</span>
+-   <span class="package-name">[`@stdlib/assert-is-electron-main`][@stdlib/assert/is-electron-main]</span><span class="delimiter">: </span><span class="description">check if the runtime is the main Electron process.</span>
+-   <span class="package-name">[`@stdlib/assert-is-electron-renderer`][@stdlib/assert/is-electron-renderer]</span><span class="delimiter">: </span><span class="description">check if the runtime is the Electron renderer process.</span>
 
 </section>
 
