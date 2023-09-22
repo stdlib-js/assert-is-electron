@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+IS_ELECTRON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-electron/tags). For example,
+
+```javascript
 IS_ELECTRON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@v0.1.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var IS_ELECTRON = require( 'path/to/vendor/umd/assert-is-electron/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -92,7 +97,7 @@ var bool = IS_ELECTRON;
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
