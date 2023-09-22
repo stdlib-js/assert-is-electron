@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_ELECTRON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@deno/mod.js';
+import IS_ELECTRON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@v0.1.0-deno/mod.js';
 ```
 
 #### IS_ELECTRON
@@ -65,7 +65,7 @@ var bool = IS_ELECTRON;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import IS_ELECTRON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@deno/mod.js';
+import IS_ELECTRON from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-electron@v0.1.0-deno/mod.js';
 
 console.log( IS_ELECTRON );
 // => <boolean>
