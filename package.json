@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-electron",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Check if the runtime is Electron.",
   "license": "Apache-2.0",
   "author": {
@@ -36,12 +36,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-plain-object": "^0.2.1",
-    "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/utils-native-class": "^0.2.1"
+    "@stdlib/assert-is-plain-object": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/utils-native-class": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/process-env": "^0.2.1",
+    "@stdlib/process-env": "^0.2.2",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
